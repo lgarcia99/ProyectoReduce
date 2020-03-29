@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Reduce</string>
+    <string name="inicio">Iniciar Sesión</string>
+    <string name="cuenta">Crear una cuenta</string>
+    <string name="next">Siguiente</string>
+
+
+</resources>
