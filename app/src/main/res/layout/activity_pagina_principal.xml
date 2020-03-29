@@ -18,7 +18,7 @@
         />
 
     <ImageView
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:layout_width="50dp"
         android:layout_height="60dp"
         android:src="@drawable/icono_"
@@ -33,13 +33,13 @@
         android:paddingHorizontal="40dp"
         android:orientation="vertical" >
 
-
         <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Gabriela"
-        android:textSize="20sp"
-        android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gabriela"
+            android:textSize="20sp"
+            android:fontFamily="bold"
+            android:layout_gravity="center"
         />
 
         <TextView
@@ -73,10 +73,49 @@
                 android:layout_height="20dp"
                 android:layout_marginStart="40dp"
                 android:src="@drawable/usuario_2" />
-
         </LinearLayout>
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:gravity="center_horizontal"
+        android:background="@color/whiteish"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icono_" />
 
     </LinearLayout>
-    
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:gravity="center_horizontal"
+        android:background="@color/whiteish"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icono_" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:src="@drawable/mas_" />
+
+
 </LinearLayout>
