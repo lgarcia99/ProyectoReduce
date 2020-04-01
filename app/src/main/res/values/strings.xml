@@ -3,6 +3,10 @@
     <string name="inicio">Iniciar Sesión</string>
     <string name="cuenta">Crear una cuenta</string>
     <string name="next">Siguiente</string>
+    <string name="Nombre">Nombre del Artículo</string>
+    <string name="titulo">Titulo del Artículo</string>
+
+
 
 
 </resources>

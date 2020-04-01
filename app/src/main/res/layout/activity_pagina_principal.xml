@@ -8,25 +8,32 @@
     tools:context=".PaginaPrincipal">
 
     <ImageView
-
         android:layout_marginTop="60dp"
         android:layout_width="30dp"
         android:layout_height="20dp"
         android:src="@drawable/iconos_app"
         android:layout_gravity="right"
         android:layout_marginRight="50dp"
-
         />
+
+    <LinearLayout
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/image_circle">
 
     <ImageView
-        android:layout_marginTop="10dp"
         android:layout_width="50dp"
         android:layout_height="60dp"
+        android:layout_marginTop="20dp"
         android:src="@drawable/icono_"
-        android:layout_gravity="center"
-
+        android:layout_gravity="center_horizontal"
         />
-    <LinearLayout
+    </LinearLayout>
+
+
+<LinearLayout
         android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -58,65 +65,37 @@
             android:orientation="horizontal"
             >
 
-            <ImageView
+            <ImageButton
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_marginEnd="40dp"
-                android:src="@drawable/estrella_" />
+                android:background="@drawable/estrella_"
+                />
 
-            <ImageView
+            <ImageButton
                 android:layout_width="20dp"
                 android:layout_height="20dp"
-                android:src="@drawable/casa_" />
+                android:background="@drawable/casa_" />
 
-            <ImageView
+            <ImageButton
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_marginStart="40dp"
-                android:src="@drawable/usuario_2" />
+                android:background="@drawable/usuario_2" />
         </LinearLayout>
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_marginTop="40dp"
-        android:layout_width="match_parent"
-        android:layout_height="160dp"
-        android:gravity="center_horizontal"
-        android:background="@color/whiteish"
-        android:orientation="horizontal"
-        >
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
 
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="60dp"
-            android:layout_gravity="center"
-            android:src="@drawable/icono_" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_marginTop="40dp"
-        android:layout_width="match_parent"
-        android:layout_height="160dp"
-        android:gravity="center_horizontal"
-        android:background="@color/whiteish"
-        android:orientation="horizontal"
-        >
-
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="60dp"
-            android:layout_gravity="center"
-            android:src="@drawable/icono_" />
-
-    </LinearLayout>
-
-    <ImageView
+    <ImageButton
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_gravity="center"
-        android:src="@drawable/mas_" />
+        android:background="@drawable/mas_" />
 
 
 </LinearLayout>
