@@ -5,8 +5,8 @@
     <string name="next">Siguiente</string>
     <string name="Nombre">Nombre del Artículo</string>
     <string name="titulo">Titulo del Artículo</string>
-
-
+    <string name="nombre_articulo">Nombre del Artículo</string>
+    <string name="subir_un_archivo">Subir un archivo</string>
 
 
 </resources>
