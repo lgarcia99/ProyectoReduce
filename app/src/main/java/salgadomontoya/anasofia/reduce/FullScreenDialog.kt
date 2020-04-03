@@ -16,9 +16,11 @@ class FullScreenDialogExample(private val callbackListener: CallbackListener) : 
         isCancelable = false
         return inflater.inflate(R.layout.layout_full_screen_dialog, container, false)
     }
+
     override fun getTheme(): Int {
         return R.style.DialogTheme
     }
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         button.setOnClickListener {

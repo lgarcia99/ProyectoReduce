@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".CrearCuenta"
-    >
+    tools:context=".CrearCuenta">
 
     <ImageView
         android:src="@drawable/flecha_retroceder"
@@ -14,22 +13,20 @@
         android:layout_marginLeft="20dp"
         android:layout_width="20dp"
         android:layout_height="30dp"
-        android:layout_gravity="left"
-        />
+        android:layout_gravity="left" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:paddingHorizontal="40dp"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <ImageView
             android:src="@drawable/fondo_usuario2"
             android:layout_width="100dp"
             android:layout_height="150dp"
-            android:layout_gravity="center"
-            />
+            android:layout_gravity="center" />
 
 
         <EditText
@@ -37,32 +34,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email: mail@email.com"
-            android:textSize="12sp"
-            />
+            android:textSize="12sp" />
 
         <EditText
             android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Phone: +99 999 555 222"
-            android:textSize="12sp"
-            />
+            android:textSize="12sp" />
 
         <EditText
             android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Contraseña"
-            android:textSize="12sp"
-            />
+            android:textSize="12sp" />
 
         <EditText
             android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Confirmar Contraseña"
-            android:textSize="12sp"
-            />
+            android:textSize="12sp" />
 
         <Button
             android:layout_width="200dp"
@@ -72,16 +65,14 @@
             android:textColor="@color/whiteish"
             android:layout_gravity="center"
             android:text="@string/next"
-            android:background="@drawable/round_button"
-            />
+            android:background="@drawable/round_button" />
 
         <LinearLayout
             android:layout_marginTop="75dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:orientation="horizontal"
-            >
+            android:orientation="horizontal">
 
             <ImageButton
                 android:layout_width="20dp"
@@ -109,11 +100,9 @@
             android:layout_marginTop="10dp"
             android:textColor="@color/grayish"
             android:gravity="center"
-            android:textSize="10sp"
-            />
+            android:textSize="10sp" />
 
     </LinearLayout>
-
 
 
 </LinearLayout>
